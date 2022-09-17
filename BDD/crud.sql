@@ -39,10 +39,10 @@ CREATE TABLE `liste` (
 -- Déchargement des données de la table `liste`
 --
 
-INSERT INTO `liste` (`id`, `produit`, `prix`, `nombre`, `actif`) VALUES
-(1, 'Souris', '5.90', 12, 1),
-(2, 'Ordinateur', '499.99', 23, 1),
-(3, 'Écran', '149.99', 34, 1);
+INSERT INTO `liste` (`id`, `produit`, `prix`, `nombre`) VALUES
+(1, 'Souris', '5.90', 12),
+(2, 'Ordinateur', '499.99', 23),
+(3, 'Écran', '149.99', 34);
 
 --
 -- Index pour les tables déchargées

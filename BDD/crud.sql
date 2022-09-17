@@ -31,8 +31,7 @@ CREATE TABLE `liste` (
   `id` int(11) NOT NULL,
   `produit` varchar(255) NOT NULL,
   `prix` varchar(100) NOT NULL,
-  `nombre` int(11) NOT NULL,
-  `actif` tinyint(1) NOT NULL DEFAULT '1'
+  `nombre` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
